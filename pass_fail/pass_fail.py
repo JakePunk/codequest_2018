@@ -5,6 +5,6 @@ with open("input.txt", 'r') as filehandle:
     for x in range(count):
         line = int(filehandle.readline())
         if line < 70:
-            print ("FAIL")
+            print("FAIL")
         else:
             print("PASS")
